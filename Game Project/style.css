@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: darkcyan;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    font-size: 80px;
+    color: azure;
+}
+.box{
+    background-color: black;
+    height: 300px;
+    width:49%;
+    margin-top: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.box1{
+    background-color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#p1{
+    font-size: 50px;
+}
+#p2{
+    font-size: 50px;
+}
+#p3{
+    font-size: 50px;
+}
+#p4{
+    font-size: 50px;
+}
+
+.box2{
+    background-color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box3{
+    background-color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4{
+    background-color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.guess{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

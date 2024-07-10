@@ -1,0 +1,11 @@
+let element=document.createElement("button");
+let body=document.querySelector("body");
+element.innerText="Click me!";
+body.prepend(element);
+element.style.backgroundColor="red";
+element.style.color="white";
+let para=document.createElement("p");
+body.append(para);
+para.setAttribute("class","para");
+console.log(para.getAttribute("class"));
+para.innerText="This is the paragraph";

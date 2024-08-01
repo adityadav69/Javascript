@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+}
+.colorBar{
+    background-color: rgb(148, 148, 115);
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    gap: 20px;
+    padding: 10px 0;
+}
+button{
+    padding: 20px 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.violet{
+    background-color: violet;
+}
+.black{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,1 @@
+Welcome to my JavaScript completion repository! This repository represents the culmination of my journey in mastering JavaScript, focusing on building a Spotify clone that dynamically loads album data.

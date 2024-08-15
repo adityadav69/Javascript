@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black; color: white;">
+    
+    <script>
+        let div=document.createElement('div');
+        div.innerText="Chai aur Code";
+        // div.className="heading"
+        div.setAttribute('class','heading')
+        div.id=Math.floor((Math.random()*100)+10);
+        div.style.backgroundColor="pink";
+        div.style.color="black";
+        div.style.padding='20px'
+        document.body.appendChild(div);
+        console.log(div);
+        let childee=document.createElement('ul');
+        div.appendChild(childee);
+        let lis=document.createElement('li');
+        lis.innerText="ADITYA"
+        childee.appendChild(lis)
+        
+
+    </script>
+</body>
+
+</html>

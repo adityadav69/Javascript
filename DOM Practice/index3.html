@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: black; color: white;">
+    <ul>
+        <li>Javascript</li>
+    </ul>
+    <script>
+        // function addLanguage(languageName){
+        //     const li=document.createElement('li')
+        //     li.innerHTML=`${languageName}`
+        //     document.querySelector('ul').appendChild(li)
+        // }
+        // addLanguage("python")
+        addLanguage("Golang")
+        addLanguage("PHP")
+        function addLanguage(languageName){
+            const li=document.createElement('li')
+            const text=document.createTextNode(languageName)
+            li.appendChild(text)
+            document.querySelector('ul').appendChild(li)
+        }
+         addLanguage("python")
+
+         //Edit
+        
+        //   let li=document.querySelector('li:nth-child(2)')
+        //  li.innerHTML="ruby";
+
+        // let li=document.querySelector('li:nth-child(2)')
+        // li.innerText="ruby";
+
+        let li=document.querySelector('li:nth-child(2)')
+        // li.outerHTML="<li>ruby<li/>";
+            const lis=document.createElement('li')
+            lis.innerText="c";
+            li.replaceWith(lis)
+    </script>
+</body>
+
+</html>
